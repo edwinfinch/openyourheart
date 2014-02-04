@@ -1,0 +1,50 @@
+{
+    "versionLabel": "0.6.2",
+    "uuid": "09fb1ca8-b2ce-4f6a-8e59-d6ebdd938eb5",
+    "appKeys": {},
+    "longName": "Open Your Heart",
+    "versionCode": 8,
+    "capabilities": [
+        ""
+    ],
+    "shortName": "Heart",
+    "companyName": "edwin",
+    "watchapp": {
+        "watchface": true
+    },
+    "resources": {
+        "media": [
+            {
+                "type": "png",
+                "name": "menu_icon_2",
+                "file": "images/download (2).png"
+            },
+            {
+                "menuIcon": true,
+                "type": "png",
+                "name": "menu_icon",
+                "file": "images/download (1).png"
+            },
+            {
+                "type": "png",
+                "name": "IMAGE_ARROW",
+                "file": "images/arrow.png"
+            },
+            {
+                "type": "png-trans",
+                "name": "IMAGE_HEART_BOTTOM",
+                "file": "images/heart_bitmap_bottom.png"
+            },
+            {
+                "type": "png-trans",
+                "name": "IMAGE_HEART_TOP",
+                "file": "images/heart_bitmap.png"
+            },
+            {
+                "type": "font",
+                "name": "FONT_CUCUMBERS_35",
+                "file": "fonts/SCRIPALT.ttf"
+            }
+        ]
+    }
+}
