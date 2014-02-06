@@ -6,6 +6,10 @@ A watchface inspired by Valentines day. Idea curtosy of Vlad :)
 
 The MIT License (MIT)
 
+
+
+
+
 Copyright (c) 2014 Edwin Finch
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
