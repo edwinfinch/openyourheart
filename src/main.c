@@ -1,8 +1,7 @@
 #include <pebble.h>
 
 Window *window;
-TextLayer *time_layer;
-TextLayer *background;
+TextLayer *time_layer, *background;
 InverterLayer *invert;
 static GFont hand_written; 
 
@@ -137,8 +136,8 @@ void window_load(Window *window){
   	layer_add_child(window_get_root_layer(window), (Layer*) time_layer);
 	
 	//Invert pixels 
-	//invert = inverter_layer_create(GRect(0,0,144,168));
-	//layer_add_child(window_get_root_layer(window), (Layer*) invert);
+	invert = inverter_layer_create(GRect(0,0,144,168));
+	layer_add_child(window_get_root_layer(window), (Layer*) invert);
 	
 	//Load structure
 	struct tm *t;

@@ -1,50 +1,51 @@
 {
-    "versionLabel": "0.6.2",
-    "uuid": "09fb1ca8-b2ce-4f6a-8e59-d6ebdd938eb5",
     "appKeys": {},
-    "longName": "Open Your Heart",
-    "versionCode": 8,
     "capabilities": [
         ""
     ],
-    "shortName": "Heart",
-    "companyName": "edwin",
-    "watchapp": {
-        "watchface": true
-    },
+    "companyName": "Edwin Finch",
+    "longName": "Open Your Heart",
+    "projectType": "native",
     "resources": {
         "media": [
             {
-                "type": "png",
-                "name": "menu_icon_2",
-                "file": "images/download (2).png"
-            },
-            {
-                "menuIcon": true,
-                "type": "png",
-                "name": "menu_icon",
-                "file": "images/download (1).png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_ARROW",
-                "file": "images/arrow.png"
-            },
-            {
-                "type": "png-trans",
-                "name": "IMAGE_HEART_BOTTOM",
-                "file": "images/heart_bitmap_bottom.png"
-            },
-            {
-                "type": "png-trans",
-                "name": "IMAGE_HEART_TOP",
-                "file": "images/heart_bitmap.png"
-            },
-            {
-                "type": "font",
+                "file": "fonts/SCRIPALT.ttf",
                 "name": "FONT_CUCUMBERS_35",
-                "file": "fonts/SCRIPALT.ttf"
+                "type": "font"
+            },
+            {
+                "file": "images/heart_bitmap.png",
+                "name": "IMAGE_HEART_TOP",
+                "type": "png-trans"
+            },
+            {
+                "file": "images/heart_bitmap_bottom.png",
+                "name": "IMAGE_HEART_BOTTOM",
+                "type": "png-trans"
+            },
+            {
+                "file": "images/arrow.png",
+                "name": "IMAGE_ARROW",
+                "type": "png"
+            },
+            {
+                "file": "images/download (2).png",
+                "name": "menu_icon_2",
+                "type": "png"
+            },
+            {
+                "file": "images/download (1).png",
+                "menuIcon": true,
+                "name": "menu_icon",
+                "type": "png"
             }
         ]
+    },
+    "shortName": "Heart",
+    "uuid": "09fb1ca8-b2ce-4f6a-8e59-d6ebdd938eb5",
+    "versionCode": 8,
+    "versionLabel": "0.7",
+    "watchapp": {
+        "watchface": true
     }
 }
